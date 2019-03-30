@@ -1,3 +1,17 @@
+This project is a frontend app for currency exchange.
+
+Some usability considerations are:
+
+I would like to add better success/error messaging using some sort of a "toast" package. These messages could pop up and fade out in the corner of the screen. They would have a red or green border depending on if an action succeeded or failed along with a description of the outcome of said action. This would especially be useful in letting the user know when config options have successfully updated.
+
+I would also add validation to the config options so that they can only be within certain ranges, no negative refresh rate or commissions, etc.
+
+It would also be nice to add a login which would store the user's "favorite" currencies to enable faster transactions. No need to show all currencies if a user is always using only one or two. This would likely require a backend though to authenticate the user.
+
+Some maintainability and readability considerations:
+
+I would like to split the home component into multiple components. The modals would be good choices to be separated into their own components, but I was short on time so I left them together for now.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
